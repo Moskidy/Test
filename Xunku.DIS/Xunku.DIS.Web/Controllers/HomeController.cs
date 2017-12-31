@@ -38,6 +38,6 @@ namespace Xunku.DIS.Web.Controllers
             return Json(ret);
         }
 
-        #endregion
+        #endregion Json
     }
 }
