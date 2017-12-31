@@ -90,6 +90,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Scripts\Base\Framework.Dev.js" />
+    <Content Include="Scripts\Plugin\Jquery-3.2.1.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -118,7 +120,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Images\" />
-    <Folder Include="Scripts\" />
+    <Folder Include="Scripts\Module\" />
     <Folder Include="Styles\" />
   </ItemGroup>
   <ItemGroup>

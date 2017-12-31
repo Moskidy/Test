@@ -3,20 +3,21 @@ using Xunku.DIS.Common.Utility;
 
 namespace Xunku.DIS.Web.Controllers
 {
+    /// <summary>
+    /// 首页控制器（登陆）
+    /// </summary>
     public class HomeController : Controller
     {
-        // GET: Home
+        #region View
         public ActionResult Index()
         {
-            var input = "123";
-            var ret = DataUtility.GetInt(input);
-
-            if (ret.HasValue)
-            {
-                return View();
-            }
-
             return View();
         }
+
+        #endregion
+
+        #region Json
+
+        #endregion
     }
 }
